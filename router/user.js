@@ -18,4 +18,6 @@ userRouter.patch("/", (req, res, next) => {
   res.status(200).json({ pathchEmail: email });
 });
 
+userRouter.post("/signup", (req, res, next) => {});
+
 module.exports = userRouter;
